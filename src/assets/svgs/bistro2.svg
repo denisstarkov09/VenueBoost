@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #2e273c;
+      }
+
+      .cls-3 {
+        stroke: #695097;
+      }
+
+      .cls-4 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-2" points="14.83 7.56 15.52 4.51 18.59 2.78"/>
+  <path class="cls-3" d="m8.79,7.56h10.48v5.24c0,2.89-2.35,5.24-5.24,5.24h0c-2.89,0-5.24-2.35-5.24-5.24v-5.24h0Z"/>
+  <line class="cls-3" x1="14.31" y1="22.22" x2="14.31" y2="18.03"/>
+  <line class="cls-1" x1="10.92" y1="21.83" x2="17.7" y2="21.83"/>
+  <path class="cls-3" d="m8.79,11.56s3.25,2.15,5.24.59,2.03-2.19,5.24-2.19"/>
+  <g>
+    <path class="cls-2" d="m7.74,4.81h.2c1.75,0,3.17,1.42,3.17,3.17h-6.54c0-1.75,1.42-3.17,3.17-3.17Z" transform="translate(-2.22 7.42) rotate(-45)"/>
+    <polyline class="cls-4" points="6.72 5.27 8.96 7.52 8.96 4.27"/>
+    <line class="cls-2" x1="8.96" y1="7.52" x2="5.72" y2="7.52"/>
+  </g>
+</svg>

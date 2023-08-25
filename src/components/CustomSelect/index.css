@@ -1,0 +1,129 @@
+.text-dropdown {
+  height: 62px;
+  position: relative;
+  background: #f6f6f6;
+  border-radius: 12px;
+  z-index: 2;
+}
+
+.text-dropdown.single {
+  height: 62px;
+}
+
+.text-dropdown.multi {
+  min-height: 62px;
+}
+
+.text-dropdown.single .text-drop-btn {
+  padding: 2px 8px;
+  height: 62px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-dropdown.multi .text-drop-btn {
+  padding: 2px 8px;
+  min-height: 62px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-drop-btn img {
+  height: 24px;
+  width: 22px;
+  object-fit: contain;
+}
+
+.text-drop-btn span {
+  color: #000;
+  font-size: 14px !important;
+  padding-left: 7px;
+  padding-right: 14px;
+  white-space: nowrap;
+}
+
+.text-drop-btn:after {
+  content: '';
+  transition: all 0.3s;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  float: right;
+  margin-top: 0px;
+  margin-right: 6px;
+  padding: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.text-dropdown.active .text-drop-btn:after {
+  margin-top: 6px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.text-dropdown-items {
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0px;
+  transition: max-height 0.6s ease;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  border-radius: 6px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.text-dropdown.active .text-dropdown-items {
+  visibility: visible;
+  border: 1px solid #efefef;
+  height: auto;
+  opacity: 1;
+  transition: max-height 0.7s, opacity 0.6s, visibility 1s ease;
+  max-height: 168px;
+  overflow-y: auto;
+}
+
+.text-dropdown-item {
+  cursor: pointer;
+  padding: 12px 18px;
+}
+
+.text-dropdown-item img {
+  height: 24px;
+  width: 22px;
+  object-fit: contain;
+}
+
+.text-dropdown-item p {
+  font-size: 14px !important;
+  margin-bottom: 0;
+}
+
+.text-dropdown-item:not(:last-child) {
+  border-bottom: 1px solid #efefef;
+}
+
+.text-dropdown-item:hover {
+  color: var(--color-text);
+}
+
+.text-dropdown .tag {
+  border: 1px solid #8c8c8c;
+  margin-top: 2px;
+  margin-right: 2px;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.text-dropdown .tag span {
+  padding-right: 6px;
+}
+
+.text-dropdown .tag .close-btn{
+  padding-left: 0px;
+  padding-right: 0px;
+}

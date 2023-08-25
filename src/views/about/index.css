@@ -1,0 +1,11 @@
+.about-us-end {
+    background-image: url('../../assets/images/about_us_bottom.png');
+    height: 600px;
+}
+
+.about-us-end span {
+    width: 65%;
+}
+
+@media (max-width: 576px) {
+}

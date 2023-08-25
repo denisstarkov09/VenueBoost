@@ -1,0 +1,23 @@
+.started-form {
+  /* background-image: url('../../assets/images/started.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+@media only screen and (min-width: 1024px) {
+  .content-header::before {
+    background-image: url("../../assets/svgs/style-element.svg");
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-top-right-radius: 100px;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35vw;
+  }
+}
+.right-column {
+  box-shadow: 0 11px 30px rgba(154, 161, 177, 0.45);
+}

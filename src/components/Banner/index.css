@@ -1,0 +1,39 @@
+.banner-video{
+    height: 101%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.banner-video-container{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-top: 39%;
+    height: 0;
+}
+#spin {
+    color:white;
+ }
+#spin:after {
+    content:"";
+    animation: spin 8s linear infinite, opacityAnimation 2s linear infinite;
+
+    opacity: 0;
+}
+@keyframes spin {
+    0% { content:"Think Table Management."; }
+    25% { content: "Think Fewer No-shows."; }
+    50% { content: "Think Reservations.";  }
+    75% { content: "Think Guest Experiences";  }
+    100% { content: "Think Table Management."; }
+}
+@keyframes opacityAnimation {
+   0% {opacity: 1;}
+    30% {opacity: 1;}
+    50% {opacity: 0;}
+    70% {opacity: 1;}
+    100% {opacity: 1;}
+}

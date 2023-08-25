@@ -1,0 +1,22 @@
+.active::after{
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid var(--color-primary);
+    bottom: -15px;
+    content: " ";
+    height: 0;
+    left: 45%;
+    position: absolute;
+    width: 0;
+
+}
+.active{
+    background-color: var(--color-primary) !important;
+    position: relative;
+}
+.active h2{
+    color: white;
+}
+li h2{
+    font-size: larger;
+}

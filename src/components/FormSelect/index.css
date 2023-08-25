@@ -1,0 +1,8 @@
+select {
+    /* background-color : var(--color-bg-lightgray); */
+    /* height: 42px; */
+    /* border-radius: 2px; */
+    /* border: 2px; */
+    outline: none;
+    padding: 0 16px;
+}
